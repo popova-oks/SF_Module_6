@@ -1,4 +1,5 @@
 #include "Household_Appliances.h"
+#include <iostream>
 
 void Household_Appliances::ShowSpec()
 {

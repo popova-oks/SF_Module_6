@@ -3,10 +3,10 @@
 
 class Television final: public Household_Appliances
 {
-pudlic:
-    Television (int screenSize) : screenSize_(screenSize) {};
+public:
+    Television (int screenSize) : screenSize_(screenSize) {}
     ~Television () override {};
     void ShowSpec () override {};
 private:
     int screenSize_;
-}
+};

@@ -3,8 +3,8 @@
 
 class Iron final: public Household_Appliances
 {
-pudlic:
-    Iron (int maxTemperature) : maxTemperature_(maxTemperature) {};
+public:
+    Iron (int maxTemperature) : maxTemperature_(maxTemperature) {}
     ~Iron () override {};
     void Iron () override {};
 private:

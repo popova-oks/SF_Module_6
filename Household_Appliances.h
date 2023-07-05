@@ -1,5 +1,5 @@
 #pragma once
-#include "Electronics.h"
+#include "IElectronics.h"
 
 class Household_Appliances : virtual public IElectronics
 {
@@ -9,4 +9,4 @@ public:
     void ShowSpec () override;
 protected:
     int weight_;
-}
+};

@@ -1,9 +1,9 @@
 #pragma once
-#include "Portable_electronics.h"
+#include "Portable_Electronics.h"
 
-class Player final: public Portable_electronics
+class Player final : public Portable_Electronics
 {
-pudlic:
+public:
     Player (int totalTracks) : totalTracks_(totalTracks) {}
     ~Player () override {}
     void ShowSpec () override {};
