@@ -10,4 +10,4 @@ public:
 
 protected:
     int batteryLife_;    
-}
+};
