@@ -9,7 +9,7 @@ public:
         totalTracks_(totalTracks) {}
 
     ~Player () override {}
-    void ShowSpec () override {};
+    void ShowSpec () override;
 private:
     int totalTracks_;
 };

@@ -1,5 +1,5 @@
-#include "Electric_Razor.h"
 #include <iostream>
+#include "Electric_Razor.h"
 
 void Electric_Razor::ShowSpec ()
 {

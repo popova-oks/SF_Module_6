@@ -9,7 +9,7 @@ public:
         screenSize_(screenSize) {}
         
     ~Television () override {}
-    void ShowSpec () override {};
+    void ShowSpec () override;
 private:
     int screenSize_;
 };

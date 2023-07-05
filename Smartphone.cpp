@@ -1,5 +1,5 @@
-#include "Smartphone.h"
 #include <iostream>
+#include "Smartphone.h"
 
 void Smartphone::ShowSpec ()
 {

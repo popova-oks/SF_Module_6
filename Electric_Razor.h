@@ -8,10 +8,10 @@ class Electric_Razor final : public Portable_Electronics, Household_Appliances
     Electric_Razor (int batteryLife, int weight, int blades) :        
         Portable_Electronics (batteryLife), 
         Household_Appliances (weight),
-        numBlades_(blades) {}
+        numBlades_(blades) {std::cout << "Electric Razor created" << std::endl;}
 
-    ~Electric_Razor () override {};
-    void ShowSpec () override {};
+    ~Electric_Razor () override {std::cout << "Electric Razor destructor" << std::endl;}
+    void ShowSpec () override;
 private:
     int numBlades_;
 };

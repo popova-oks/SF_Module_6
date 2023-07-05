@@ -9,7 +9,7 @@ public:
        maxTemperature_(maxTemperature) {}
     
     ~Iron () override {}
-    void ShowSpec() override {};
+    void ShowSpec() override;
 private:
     int maxTemperature_;
 };
