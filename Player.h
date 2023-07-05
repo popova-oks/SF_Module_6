@@ -4,7 +4,10 @@
 class Player final : public Portable_Electronics
 {
 public:
-    Player (int totalTracks) : totalTracks_(totalTracks) {}
+    Player (int batteryLife, int totalTracks) : 
+        Portable_Electronics(batteryLife),
+        totalTracks_(totalTracks) {}
+
     ~Player () override {}
     void ShowSpec () override {};
 private:
