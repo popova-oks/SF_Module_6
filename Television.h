@@ -5,7 +5,7 @@ class Television final: public Household_Appliances
 {
 public:
     Television (int screenSize) : screenSize_(screenSize) {}
-    ~Television () override {};
+    ~Television () override {}
     void ShowSpec () override {};
 private:
     int screenSize_;

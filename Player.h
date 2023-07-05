@@ -9,4 +9,4 @@ public:
     void ShowSpec () override {};
 private:
     int totalTracks_;
-}
+};

@@ -5,8 +5,8 @@ class Iron final: public Household_Appliances
 {
 public:
     Iron (int maxTemperature) : maxTemperature_(maxTemperature) {}
-    ~Iron () override {};
-    void Iron () override {};
+    ~Iron () override {}
+    void ShowSpec() override {};
 private:
     int maxTemperature_;
-}
+};

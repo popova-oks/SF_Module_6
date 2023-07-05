@@ -5,7 +5,7 @@ class Smartphone final: public Portable_Electronics
 {
 public:
     Smartphone (int screenSize) : screenSize_(screenSize) {}
-    ~Smartphone () override {};
+    ~Smartphone () override {}
     void ShowSpec () override {};
 private:
     int screenSize_;
