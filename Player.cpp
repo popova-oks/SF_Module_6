@@ -3,6 +3,6 @@
 
 void Player::ShowSpec ()
 {
-    std::cout << "Battery life: " << batteryLife_ << std::endl; 
+    std::cout << "Battery life: " << batteryLife_ << " h\n"; 
     std::cout << "Total tracks: " << totalTracks_ << std::endl;
 }

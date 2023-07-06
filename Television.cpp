@@ -3,6 +3,6 @@
 
 void Television::ShowSpec ()
 {
-    std::cout << "Weight: " << weight_ << std::endl; 
-    std::cout << "Screen size: " << screenSize_ << std::endl;
+    std::cout << "Weight: " << weight_ << " g\n"; 
+    std::cout << "Screen size: " << screenSize_ << " inch\n";
 }

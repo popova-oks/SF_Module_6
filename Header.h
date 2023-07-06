@@ -1,4 +1,5 @@
-#pragma once
+
+#include "Warehouse.h"
 #include "IElectronics.h"
 #include "Portable_Electronics.h"
 #include "Household_Appliances.h"

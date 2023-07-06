@@ -3,7 +3,13 @@
 
 void Electric_Razor::ShowSpec ()
 {
-    std::cout << "Weight: " << weight_ << std::endl;
-    std::cout << "Battery life: " << batteryLife_ << std::endl;
-    std::cout << "The number of blades in the Razor: " << numBlades_ << std::endl;
+    std::cout << "Weight: " << weight_ << " g\n";
+    std::cout << "Battery life: " << batteryLife_ << " h\n";
+    std::cout << "The number of blades: " << numBlades_ << std::endl;
+}
+
+const std::string Electric_Razor::get_nameType()
+{
+    const std::string str = Portable_Electronics::get_nameType() + ", " + Household_Appliances::get_nameType();
+    return str;
 }

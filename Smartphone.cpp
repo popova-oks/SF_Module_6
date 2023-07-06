@@ -3,6 +3,6 @@
 
 void Smartphone::ShowSpec ()
 {
-    std::cout << "Battery life: " << batteryLife_ << std::endl; 
-    std::cout << "Screen size: " << screenSize_ << std::endl;
+    std::cout << "Battery life: " << batteryLife_ << " h\n"; 
+    std::cout << "Screen size: " << screenSize_ << " inch\n";
 }
