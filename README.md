@@ -1,19 +1,12 @@
 # SF_Module_6
-# SF_Module_6
 <!DOCTYPE html>
 <html>
- <head>
-  <meta charset="utf-8" />
-  <title>HTML5</title>
-  <!--[if IE]>
-   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  <style>
-   article, aside, details, figcaption, figure, footer,header,
-   hgroup, menu, nav, section { display: block; }
-  </style>
+ <head>  
+   Склад портативной электроники и бытовой техники
  </head>
  <body>
-  <p>Привет, мир</p>
+  <p>Программа по выбору отображает данные о наименовании и спецификации объектов, 
+   относящихся либо к классу портативной электроники, либо к бытовой технике.
+  Использован абстрактный класс и наследование от нескольких классов.</p>
  </body>
 </html>
